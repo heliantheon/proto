@@ -1390,8 +1390,8 @@ const file_hermes_v1_resource_proto_rawDesc = "" +
 	"\x1bListAppServiceRelationships\x12-.hermes.v1.ListAppServiceRelationshipsRequest\x1a\x1b.hermes.v1.RelationshipList\x12g\n" +
 	"\x1cCreateAppServiceRelationship\x12..hermes.v1.CreateAppServiceRelationshipRequest\x1a\x17.hermes.v1.Relationship\x12g\n" +
 	"\x1cUpdateAppServiceRelationship\x12..hermes.v1.UpdateAppServiceRelationshipRequest\x1a\x17.hermes.v1.Relationship\x12f\n" +
-	"\x1cDeleteAppServiceRelationship\x12..hermes.v1.DeleteAppServiceRelationshipRequest\x1a\x16.google.protobuf.EmptyB\xa0\x01\n" +
-	"\rcom.hermes.v1B\rResourceProtoP\x01Z;github.com/heliannuuthus/proto/gen/proto/hermes/v1;hermesv1\xa2\x02\x03HXX\xaa\x02\tHermes.V1\xca\x02\tHermes\\V1\xe2\x02\x15Hermes\\V1\\GPBMetadata\xea\x02\n" +
+	"\x1cDeleteAppServiceRelationship\x12..hermes.v1.DeleteAppServiceRelationshipRequest\x1a\x16.google.protobuf.EmptyB\x9e\x01\n" +
+	"\rcom.hermes.v1B\rResourceProtoP\x01Z9github.com/heliantheon/proto/gen/proto/hermes/v1;hermesv1\xa2\x02\x03HXX\xaa\x02\tHermes.V1\xca\x02\tHermes\\V1\xe2\x02\x15Hermes\\V1\\GPBMetadata\xea\x02\n" +
 	"Hermes::V1b\x06proto3"
 
 var (

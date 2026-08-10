@@ -1,4 +1,4 @@
-module github.com/heliannuuthus/proto
+module github.com/heliantheon/proto
 
 go 1.26
 
