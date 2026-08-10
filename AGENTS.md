@@ -17,4 +17,4 @@ make lint
 - Commit generated Go code with every contract change.
 - Prefer additive, backward-compatible changes.
 - Never reuse a removed field number or silently change the meaning of an existing field.
-- Keep `go_package` paths rooted at `github.com/heliannuuthus/proto/gen/proto`.
+- Keep `go_package` paths rooted at `github.com/heliantheon/proto/gen/proto`.

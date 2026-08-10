@@ -6,7 +6,7 @@ import "google/protobuf/empty.proto";
 import "google/protobuf/timestamp.proto";
 import "hermes/v1/common.proto";
 
-option go_package = "github.com/heliannuuthus/helios/proto/hermes/v1;hermesv1";
+option go_package = "github.com/heliantheon/proto/gen/proto/hermes/v1;hermesv1";
 
 // UserService 用户 + 身份 + 凭证（TOTP/WebAuthn）+ MFA + 密码认证 + 用户组
 service UserService {

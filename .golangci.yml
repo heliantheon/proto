@@ -148,13 +148,13 @@ formatters:
   settings:
     goimports:
       local-prefixes:
-        - github.com/heliannuuthus/proto
+        - github.com/heliantheon/proto
 
     gci:
       sections:
         - standard
         - default
-        - prefix(github.com/heliannuuthus/proto)
+        - prefix(github.com/heliantheon/proto)
       custom-order: true
 
   exclusions:

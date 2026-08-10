@@ -694,8 +694,8 @@ const file_hermes_v1_key_proto_rawDesc = "" +
 	"\fCreateIDPKey\x12\x1e.hermes.v1.CreateIDPKeyRequest\x1a\x11.hermes.v1.IDPKey\x12F\n" +
 	"\fUpdateIDPKey\x12\x1e.hermes.v1.UpdateIDPKeyRequest\x1a\x16.google.protobuf.Empty\x12F\n" +
 	"\fDeleteIDPKey\x12\x1e.hermes.v1.DeleteIDPKeyRequest\x1a\x16.google.protobuf.Empty\x12R\n" +
-	"\rResolveIDPKey\x12\x1f.hermes.v1.ResolveIDPKeyRequest\x1a .hermes.v1.ResolveIDPKeyResponseB\x9b\x01\n" +
-	"\rcom.hermes.v1B\bKeyProtoP\x01Z;github.com/heliannuuthus/proto/gen/proto/hermes/v1;hermesv1\xa2\x02\x03HXX\xaa\x02\tHermes.V1\xca\x02\tHermes\\V1\xe2\x02\x15Hermes\\V1\\GPBMetadata\xea\x02\n" +
+	"\rResolveIDPKey\x12\x1f.hermes.v1.ResolveIDPKeyRequest\x1a .hermes.v1.ResolveIDPKeyResponseB\x99\x01\n" +
+	"\rcom.hermes.v1B\bKeyProtoP\x01Z9github.com/heliantheon/proto/gen/proto/hermes/v1;hermesv1\xa2\x02\x03HXX\xaa\x02\tHermes.V1\xca\x02\tHermes\\V1\xe2\x02\x15Hermes\\V1\\GPBMetadata\xea\x02\n" +
 	"Hermes::V1b\x06proto3"
 
 var (

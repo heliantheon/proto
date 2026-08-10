@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package hermes.v1;
 
-option go_package = "github.com/heliannuuthus/helios/proto/hermes/v1;hermesv1";
+option go_package = "github.com/heliantheon/proto/gen/proto/hermes/v1;hermesv1";
 
 // ErrorReason hermes 业务错误码，通过 google.rpc.ErrorInfo.reason 传递
 enum ErrorReason {

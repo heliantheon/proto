@@ -2495,8 +2495,8 @@ const file_hermes_v1_provision_proto_rawDesc = "" +
 	"\fListServices\x12\x1e.hermes.v1.ListServicesRequest\x1a\x16.hermes.v1.ServiceList\x12D\n" +
 	"\rUpdateService\x12\x1f.hermes.v1.UpdateServiceRequest\x1a\x12.hermes.v1.Service\x12H\n" +
 	"\rDeleteService\x12\x1f.hermes.v1.DeleteServiceRequest\x1a\x16.google.protobuf.Empty\x12n\n" +
-	"\x1aGetServiceChallengeSetting\x12,.hermes.v1.GetServiceChallengeSettingRequest\x1a\".hermes.v1.ServiceChallengeSettingB\xa1\x01\n" +
-	"\rcom.hermes.v1B\x0eProvisionProtoP\x01Z;github.com/heliannuuthus/proto/gen/proto/hermes/v1;hermesv1\xa2\x02\x03HXX\xaa\x02\tHermes.V1\xca\x02\tHermes\\V1\xe2\x02\x15Hermes\\V1\\GPBMetadata\xea\x02\n" +
+	"\x1aGetServiceChallengeSetting\x12,.hermes.v1.GetServiceChallengeSettingRequest\x1a\".hermes.v1.ServiceChallengeSettingB\x9f\x01\n" +
+	"\rcom.hermes.v1B\x0eProvisionProtoP\x01Z9github.com/heliantheon/proto/gen/proto/hermes/v1;hermesv1\xa2\x02\x03HXX\xaa\x02\tHermes.V1\xca\x02\tHermes\\V1\xe2\x02\x15Hermes\\V1\\GPBMetadata\xea\x02\n" +
 	"Hermes::V1b\x06proto3"
 
 var (

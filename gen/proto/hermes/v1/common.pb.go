@@ -363,8 +363,8 @@ const file_hermes_v1_common_proto_rawDesc = "" +
 	"\x12SIGN_COUNT_ANOMALY\x10\xcc\x01\x12\x13\n" +
 	"\x0eTOTP_NOT_BOUND\x10\xcd\x01\x12\x1b\n" +
 	"\x16CREDENTIAL_NOT_ENABLED\x10\xce\x01\x12\x1e\n" +
-	"\x19APP_SERVICE_ACCESS_DENIED\x10\xac\x02B\x9e\x01\n" +
-	"\rcom.hermes.v1B\vCommonProtoP\x01Z;github.com/heliannuuthus/proto/gen/proto/hermes/v1;hermesv1\xa2\x02\x03HXX\xaa\x02\tHermes.V1\xca\x02\tHermes\\V1\xe2\x02\x15Hermes\\V1\\GPBMetadata\xea\x02\n" +
+	"\x19APP_SERVICE_ACCESS_DENIED\x10\xac\x02B\x9c\x01\n" +
+	"\rcom.hermes.v1B\vCommonProtoP\x01Z9github.com/heliantheon/proto/gen/proto/hermes/v1;hermesv1\xa2\x02\x03HXX\xaa\x02\tHermes.V1\xca\x02\tHermes\\V1\xe2\x02\x15Hermes\\V1\\GPBMetadata\xea\x02\n" +
 	"Hermes::V1b\x06proto3"
 
 var (
