@@ -1,21 +1,18 @@
-# Proto
+# Proto (deprecated)
 
-Protocol Buffer contracts shared by Helios services. Generated Go code is committed under `gen/` so consumers can use this repository as a normal Go module.
+This repository is retained temporarily for migration history. Hermes is now the source of truth for the `hermes.v1` language-neutral Protocol Buffer Schema.
 
-## Layout
+Hermes 协议已经迁移到 [`heliantheon/hermes`](https://github.com/heliantheon/hermes/tree/main/proto/v1)。本仓库仅在消费者完成切换前保留历史，不再接受新的协议变更。
 
-- `proto/` contains the source `.proto` files and Buf configuration.
-- `gen/` contains generated Go messages and gRPC stubs.
+## New location
 
-## Development
+- Schema repository: [`heliantheon/hermes`](https://github.com/heliantheon/hermes)
+- Schema directory: `proto/v1`
+- Protobuf package: `hermes.v1`
+- Version tags: `schema/*`
 
-Install [Buf](https://buf.build/docs/installation), then run:
+Consumers generate and commit their own language bindings from a fixed Hermes Schema tag. Generated Go code is no longer published as a shared module.
 
-```bash
-make generate
-make check-generate
-make test
-make lint
-```
+## Migration status
 
-When a contract changes, update its source and generated code in the same pull request. Prefer backward-compatible additions; do not reuse removed field numbers.
+The existing `proto/` and `gen/` directories remain available for consumers pinned to historical revisions. After the Hermes and Aegis migration pull requests are merged, this repository will be archived.
