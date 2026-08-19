@@ -1,20 +1,8 @@
-# Proto
+# Proto (deprecated)
 
-This repository owns the Protocol Buffer contracts and generated Go clients shared by Helios services.
+The Hermes Protocol Buffer contracts have moved to `heliantheon/hermes/proto/v1`.
 
-## Commands
-
-```bash
-make generate
-make check-generate
-make test
-make lint
-```
-
-## Rules
-
-- Edit source contracts under `proto/`; do not hand-edit files under `gen/`.
-- Commit generated Go code with every contract change.
-- Prefer additive, backward-compatible changes.
-- Never reuse a removed field number or silently change the meaning of an existing field.
-- Keep `go_package` paths rooted at `github.com/heliantheon/proto/gen/proto`.
+- Do not add or modify contracts in this repository.
+- Preserve the existing history for consumers pinned to old revisions.
+- Make all future Schema changes in Hermes and publish them with a `schema/*` tag.
+- Archive this repository after the Hermes and Aegis migration pull requests are merged.
